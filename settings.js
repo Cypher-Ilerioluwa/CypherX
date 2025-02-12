@@ -15,46 +15,46 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~CmxAEKYR#5tBsLcJzXwwC0F0Mf5zchsZg6xTb21oRo2ynCqHMxz4' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'CypherXBot' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349121881343' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '2349121881343'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Cypher Ìléríolúwa (Ifálóṣèyífúnmi)' 
 //Type your name here
 
 //=================================================//
 global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg=="
 
 //=================================================//
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "©CypherXBot"
 
 //=================================================//
 global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "XBot" 
 //The sticker author name
 
 //=================================================//
-global.prefixz = process.env.PREFIX || '.'
+global.prefixz = process.env.PREFIX || ','
 //Set your desired prefix
 
 //=================================================//
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set to 'private' to enable private mode, otherwise default is 'public'
 
 //=================================================//
@@ -75,7 +75,7 @@ global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
 
 
 //=================================================//
-global.chatbot = process.env.CHATBOT || 'false'
+global.chatbot = process.env.CHATBOT || 'true'
 // set true to enable and false to disable auto ai chatbot
 
 //=================================================//
@@ -83,11 +83,11 @@ global.anticall = process.env.ANTI_CALL || 'false'
 // set true to enable and false to disable auto blocking of callers
 
 //=================================================//
-global.welcome = process.env.WELCOME_MSG || 'false'
+global.welcome = process.env.WELCOME_MSG || 'true'
 // set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //=================================================//
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Africa/Nigeria" 
 //Don't edit this if you don't know!
 
 //=================================================//
@@ -95,7 +95,7 @@ global.autoread = process.env.AUTO_READ || 'false';
 // Set to 'true' to enable automatic reading of messages
 
 //=================================================//
-global.menustyle = process.env.MENU_STYLE || '2' 
+global.menustyle = process.env.MENU_STYLE || '3' 
 // options 1, 2, 3, 4 or 5
 // 1 = Document menu(Android only)
 // 2 = Text only menu(Android & iOS)
